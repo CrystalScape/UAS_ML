@@ -14,7 +14,7 @@ from sklearn.decomposition import PCA
 # save
 import pickle as pkl
 
-dt1 = pd.read_excel(r'Dataset_Supervised\\fruit.xlsx')
+dt1 = pd.read_excel(r'fruit.xlsx')
 dt1
 
 print(dt1['name'].unique())
