@@ -13,7 +13,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt 
 from tqdm import tqdm
 
-dt = pd.read_csv('Dataset UnSupervised\Wine Clustering\wine-clustering.csv')
+dt = pd.read_csv('wine-clustering.csv')
 real = pd.read_csv('wine_data.csv')['class']
 print(real.unique())
 print(dt.head())
