@@ -32,7 +32,7 @@ if pils == 'SVM' :
     st.title('SVM 🤖') 
     st.write('''Melakukan klasifikasi buah berdasarkan bobot warna
              dan diameterdengan menggunakan algoritma SVM''')
-    x = pd.read_excel('Dataset_Supervised\\fruit.xlsx')
+    x = pd.read_excel('fruit.xlsx')
     st.header('Perview Data')
     st.dataframe(x)
     xl = x['name'].unique()
@@ -51,7 +51,7 @@ if pils == 'SVM' :
 if pils == 'MLP' : 
     st.title('Multi Layer Perceptron 🤖')
     st.write('Melakukan klasifikasi jenis labu berdasarkan kriteria nya')
-    df = pd.read_excel('Dataset_Supervised\Pumpkin_Seeds_Dataset.xlsx')
+    df = pd.read_excel('Pumpkin_Seeds_Dataset.xlsx')
     st.dataframe(df)
     area = float(st.select_slider('Area 📏' , np.round(np.arange(1,151 , 0.10) , 2)))
     perme = float(st.select_slider('Perimeter 📏' , np.round(np.arange(1,1500 , 0.10) , 2)))
