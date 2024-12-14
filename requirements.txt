@@ -1,5 +1,4 @@
 streamlit==1.39.0
-﻿scikit-image==0.23.2
 scikit-learn==1.2.1
 torch==1.13.1+cu116
 tqdm==4.66.6
