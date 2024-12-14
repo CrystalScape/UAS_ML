@@ -13,7 +13,7 @@ from sklearn.metrics import confusion_matrix , ConfusionMatrixDisplay
 import matplotlib.pyplot as plt 
 from tqdm import tqdm
 
-df = pd.read_excel('Dataset_Supervised\Pumpkin_Seeds_Dataset.xlsx')
+df = pd.read_excel('Pumpkin_Seeds_Dataset.xlsx')
 print(df['Class'].unique())
 labels = df['Class'].unique()
 
